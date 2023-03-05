@@ -47,3 +47,20 @@ Click *Ok* and that should be it.
 ## STEP 5:
 In the table, select your newly created configuration and then in the bottom right corner of the window click *Apply and Close*. That should be it for 
 setting up your CheckStyle
+
+# Running On Eclipse 
+Now with everything ready, you are given two options on how to run it. Either run CheckStyle on your whole project folder or on one program. I would 
+recommend you doing the latter way since it makes it more managable and your 'Problems' window will not be overloaded with errors that aren't even in the 
+file you're looking for. 
+
+To run CheckStyle, right click on the program you wish to be check and there should be a **CheckStyle** option appear near the bottom of the list of options, hover your mouse over it and additional commands appear, click on **Check Code with Checkstyle**, this will run the program on your file. 
+You will tell it has worked when you see a ton of new Warnings pop up and then your code is highlighted in Yellow. These are your Style errors. 
+
+Sometimes Checkstyle is a little funky with some of the violations, especially with HEADER comments on the top of your code. To remove some violations, 
+go to the **Problems** window on your IDE and take your cursor over to the line and the Problems window should take you to that line's violations. 
+double click on the single problem, or hold shift and highlight all violations you wish to remove. Then right click and the **Delete** option should be visible. Click on that. 
+
+Finally, if you want to turn off Checkstyle double click on your program in the Project manager and go back to the **CheckStyle** option and click 
+**Clear CheckStyle Violations**, this should remove all the violations in that program. 
+
+HOPE YOU ENJOY!
