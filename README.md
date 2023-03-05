@@ -25,7 +25,7 @@ with how it works on Eclipse.
 
 ## STEP 0: 
 Now before we do anything let's consider if you've sucessful installed the plug in. To do do this go to 
-** Preferences > Checkstyle ** if you don't see a newly made option for CheckStyle then you must've done the installation wrong. 
+**Preferences > Checkstyle** if you don't see a newly made option for CheckStyle then you must've done the installation wrong. 
 
 ## STEP 1: 
 Download the XML file provided here, make sure to put it in a directory where you can easily find it for installation. 
