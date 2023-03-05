@@ -38,4 +38,12 @@ to you, however these configurations are not the same as Mike Scott's and I will
 ## STEP 3: 
 To the right of the configurations table there should be a button labled **New...** click on this. Upon clicking it a window pops up prompting 
 you to give a name and type of configuration for your CheckStyle config. I would keep it as a ***Internal Configuration*** and put something like 
-'CS314 Checks
+'CS314 Checks' 
+
+## STEP 4: 
+Now click on the **Import...** button and your computer's file manager should pop up. Take that to the directory of your recently downloaded XML file. 
+Click *Ok* and that should be it. 
+
+## STEP 5:
+In the table, select your newly created configuration and then in the bottom right corner of the window click *Apply and Close*. That should be it for 
+setting up your CheckStyle
